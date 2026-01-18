@@ -1,0 +1,31 @@
+{
+  "name": "p2p-csv-generator",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "gen": "tsx src/cli.ts"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^9.0.3",
+    "archiver": "^7.0.1",
+    "fast-csv": "^4.3.6",
+    "next": "^14.2.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "seedrandom": "^3.0.5",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "@types/seedrandom": "^3.0.8",
+    "@types/archiver": "^5.3.4",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3"
+  }
+}
